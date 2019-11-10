@@ -53,7 +53,7 @@ table, th, td {
 }
 
 tr:hover{
-  background-color: salmon;
+  background-color: #7038c9;
 }
 
 input[type=number] {
