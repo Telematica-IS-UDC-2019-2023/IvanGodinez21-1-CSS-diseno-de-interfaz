@@ -13,10 +13,23 @@ label {
 }
 
 table {
+  display: table;
+  margin: auto;
+  border-color: black;
+  background-color: floralwhite;
+  border-collapse: collapse;
   border: #2431a1;
   border-style: dashed;
   text-align: center;
   font-family: 'VT323', monospace;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+tr:hover{
+  background-color: salmon;
 }
 
 input[type=number] {
