@@ -10,6 +10,7 @@ input, label , h2, select {
 
 label {
   margin-top: 10px;
+  font-size: 25px;
 }
 
 table {
@@ -104,11 +105,18 @@ input[type=button]:active {
 .fondo-doc7{
   width: 850px;
     height: 500px;
-    background-color: #16692b;
+    background-color:rgb(82, 165, 82);
     color: rgb(0, 0, 0);
     margin: 20px auto;
     padding: 20px;
     border-radius: 4px
+  }
+    
+input[type=text] {
+  align-content: center;
+  text-align: center;
+  padding: 1px;
+  width: 400px;
 }
 
 .atras {
@@ -120,5 +128,6 @@ input[type=button]:active {
 
 .inputDoc7 {
   width: 100px;
-  height: ;
+  height: 30px;
+  text-align: left;
 }
