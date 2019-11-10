@@ -92,3 +92,14 @@ input[type=button]:active {
   display: table;
   clear: both;
 }
+
+.fondo-doc7{
+  width: 750px;
+    height: 500px;
+    background-color: #16692b;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px
+}
+
