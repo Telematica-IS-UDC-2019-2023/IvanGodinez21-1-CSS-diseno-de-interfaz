@@ -8,6 +8,13 @@ input, label , h2, select {
   font-family: 'VT323', monospace;
 }
 
+ul {
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  font-family: 'VT323', monospace;
+}
+
 label {
   margin-top: 10px;
   font-size: 25px;
@@ -26,6 +33,7 @@ table {
 }
 
 table, th, td {
+  font-size: 30px;
   border: 2px solid black;
 }
 
