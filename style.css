@@ -102,6 +102,13 @@ input[type=button]:active {
   clear: both;
 }
 
+input[type=text] {
+  align-content: center;
+  text-align: center;
+  padding: 1px;
+  width: 400px;
+}
+
 .atras {
   align-content: center;
   text-align: center;
