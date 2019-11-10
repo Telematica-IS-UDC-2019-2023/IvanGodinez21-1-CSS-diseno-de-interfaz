@@ -10,6 +10,7 @@ input, label , h2, select {
 
 label {
   margin-top: 10px;
+  font-size: 25px;
 }
 
 table {
