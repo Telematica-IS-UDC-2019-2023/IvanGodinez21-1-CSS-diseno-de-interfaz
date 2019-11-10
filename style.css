@@ -1,8 +1,23 @@
+html {
+  background: rgb(85, 85, 85);
+}
+
 a {
   text-decoration: none;
 }
 
-input, label , h2, select {
+h2 {
+  text-align: center;
+  font-size: 50px ;
+  width: 100%;
+  color: rgb(85, 85, 85);
+  background: rgb(210, 210, 210);
+  border-style: solid;
+  border-radius: 20px;
+  font-family: 'VT323', monospace;
+}
+
+input, label , select {
   display: block;
   width: 100%;
   font-family: 'VT323', monospace;
@@ -38,7 +53,7 @@ table, th, td {
 }
 
 tr:hover{
-  background-color: salmon;
+  background-color: #7038c9;
 }
 
 input[type=number] {
@@ -115,6 +130,7 @@ input[type=text] {
   text-align: left;
   padding: 1px;
   width: 400px;
+  background: rgb(210, 210, 210);
 }
 
 input[type=date] {
@@ -122,139 +138,7 @@ input[type=date] {
   text-align: left;
   padding: 1px;
   width: 400px;
-}
-
-.atras {
-  align-content: center;
-  text-align: center;
-  padding: 1px;
-  width: 120px;
-}
-
-a {
-  text-decoration: none;
-}
-
-input, label , h2, select {
-  display: block;
-  width: 100%;
-  font-family: 'VT323', monospace;
-}
-
-ul {
-  font-size: 30px;
-  display: block;
-  width: 100%;
-  font-family: 'VT323', monospace;
-}
-
-label {
-  margin-top: 10px;
-  font-size: 25px;
-}
-
-table {
-  display: table;
-  margin: auto;
-  border-color: black;
-  background-color: floralwhite;
-  border-collapse: collapse;
-  border: #2431a1;
-  border-style: dashed;
-  text-align: center;
-  font-family: 'VT323', monospace;
-}
-
-table, th, td {
-  font-size: 30px;
-  border: 2px solid black;
-}
-
-tr:hover{
-  background-color: salmon;
-}
-
-input[type=number] {
-  align-content: center;
-  margin: 5px;
-}
-
-input {
-  height: 30px;
-  padding: 40px;
-  outline: none;
-  border-style: none;
-  text-decoration: none;
-  border-radius: 10px;
-  margin-top: 5 px;
-  font-size: 30px;
-  color: #42b883;
-}
-
-input[type=button] {
-  color: white;
-  margin: 5px;
-  background-color: #2431a1;
-  align-content: center;
-
-}
-input[type=button]:hover {
-  cursor: pointer;
-  border: 1px solid #8f38c9;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-input[type=button]:active {
-  cursor: pointer;
-  color: white;
-  background-color: #7038c9;
-  box-shadow: none;
-}
-
-#resultado {
-  color: white;
-  background-color: #35495e;
-}
-
-.container {
-  width: 900px;
-  background-color: rgb(82, 165, 82);
-  color: #FFF;
-  margin: 20px auto;
-  border-radius: 50px;
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.panel {
-  margin-top: 10px;
-}
-
-.column {
-  float: left;
-  width: 45%;
-  padding: 0 10px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-input[type=text] {
-  align-content: center;
-  text-align: left;
-  padding: 1px;
-  width: 400px;
-}
-
-input[type=date] {
-  align-content: center;
-  text-align: left;
-  padding: 1px;
-  width: 400px;
+  background: rgb(210, 210, 210);
 }
 
 .atras {
