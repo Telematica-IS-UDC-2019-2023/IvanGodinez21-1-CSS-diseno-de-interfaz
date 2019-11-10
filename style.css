@@ -11,7 +11,7 @@ h2 {
   font-size: 50px ;
   width: 100%;
   color: rgb(85, 85, 85);
-  background: white;
+  background: rgb(210, 210, 210);
   border-style: solid;
   border-radius: 20px;
   font-family: 'VT323', monospace;
@@ -130,6 +130,7 @@ input[type=text] {
   text-align: left;
   padding: 1px;
   width: 400px;
+  background: rgb(210, 210, 210);
 }
 
 input[type=date] {
@@ -137,6 +138,7 @@ input[type=date] {
   text-align: left;
   padding: 1px;
   width: 400px;
+  background: rgb(210, 210, 210);
 }
 
 .atras {
