@@ -6,6 +6,13 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'VT323', monospace;
+  text-align: left;
+  font-size: 30px ;
+  width: 100%;
+}
+
 h2 {
   text-align: center;
   font-size: 50px ;
@@ -142,7 +149,7 @@ input[type=date] {
 
 .atras {
   align-content: center;
-  text-align: center;
+  text-align: center; 
   padding: 1px;
   width: 120px;
 }
