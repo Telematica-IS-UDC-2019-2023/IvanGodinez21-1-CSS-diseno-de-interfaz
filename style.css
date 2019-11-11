@@ -1,5 +1,5 @@
 html {
-  background: rgb(85, 85, 85);
+  background: cornsilk;
 }
 
 a {
@@ -10,7 +10,7 @@ h2 {
   text-align: center;
   font-size: 50px ;
   width: 100%;
-  color: rgb(85, 85, 85);
+  color: #394b4e;
   background: rgb(210, 210, 210);
   border-style: solid;
   border-radius: 20px;
@@ -41,7 +41,6 @@ table {
   border-color: black;
   background-color: floralwhite;
   border-collapse: collapse;
-  border: #2431a1;
   border-style: dashed;
   text-align: center;
   font-family: 'VT323', monospace;
@@ -53,7 +52,7 @@ table, th, td {
 }
 
 tr:hover{
-  background-color: #7038c9;
+  background-color: #466e75;
 }
 
 input[type=number] {
@@ -76,13 +75,13 @@ input {
 input[type=button] {
   color: white;
   margin: 5px;
-  background-color: #2431a1;
+  background-color: #6099a3;
   align-content: center;
 
 }
 input[type=button]:hover {
   cursor: pointer;
-  border: 1px solid #8f38c9;
+  border: 1px solid #394b4e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -90,7 +89,7 @@ input[type=button]:hover {
 input[type=button]:active {
   cursor: pointer;
   color: white;
-  background-color: #7038c9;
+  background-color: #466e75;
   box-shadow: none;
 }
 
@@ -101,7 +100,7 @@ input[type=button]:active {
 
 .container {
   width: 900px;
-  background-color: rgb(82, 165, 82);
+  background-color: rgb(95, 184, 132);
   color: #FFF;
   margin: 20px auto;
   border-radius: 50px;
