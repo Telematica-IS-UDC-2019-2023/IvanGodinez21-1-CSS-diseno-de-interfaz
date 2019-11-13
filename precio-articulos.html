@@ -15,10 +15,99 @@
     <div class="container">
       <form>
         <section>
-         <h2>Menú</h2>
+         <h2>Consulta de precios de articulos</h2>
          <div class="panel">
          <div class="row">
-         <a href="menu.html"><input type="button" name=" < ATRAS" id="btn1"/></a>
+         <a href="menu.html"><input class="atras" type="button" value="< ATRAS" id="btn1"/></a>
+         <label for="filter">Filtrar por</label>
+         <select name="filter" id="filter">
+          <option value="id">ID</option> 
+          <option value="articulo" selected>Articulo</option>
+          <option value="codigo">Codigo de Barras</option>
+          <option value="tipo">Tipo</option>  
+          <option value="caducidad">Caducidad</option>
+          <option value="vendedor">Vendedor</option>
+          <option value="cantidad">Cantidad restante</option>
+          <option value="precio">Precio</option>
+         </select>
+         <label for="search">Buscar</label>
+         <input type="text" name="seacrh" id="search">
+         <p></p>
+         <input class="atras" type="button" value="Buscar" id="btnsearch">
+         <p></p>
+         <table class="Tabla">
+            <tr>
+                  <th>ID</th>
+                  <th>Articulo</th>
+                  <th>Codigo de Barras</th>
+                  <th>Tipo</th>
+                  <th>Caducidad</th>
+                  <th>Vendedor</th>
+                  <th>Cantidad restante</th>
+                  <th>Precio</th>
+            </tr>
+            <tr>
+                <td>#123</td>
+                <td>Powerade</td>
+                <td>432409327434234032</td>
+                <td>Bebida</td>
+                <td>20/12/2019</td>
+                <td>Coca Cola</td>
+                <td>50pz</td>
+                <td>$28.00</td>
+            </tr>
+            <tr>
+                <td>#213</td>
+                <td>Ruffles Crunch SR</td>
+                <td>3247324092309</td>
+                <td>Botana</td>
+                <td>26/12/2019</td>
+                <td>Sabritas</td>
+                <td>36pz</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>#97</td>
+                <td>Trident Ment</td>
+                <td>345834509435</td>
+                <td>Caramelos</td>
+                <td>26/1/2020</td>
+                <td>Trident</td>
+                <td>20pz</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>#777</td>
+                <td>Coca Cola</td>
+                <td>42387943289423</td>
+                <td>Bebida</td>
+                <td>26/12/2019</td>
+                <td>Coca Cola</td>
+                <td>100pz</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td>#23</td>
+                <td>Papel de Baño</td>
+                <td>2347923478924378</td>
+                <td>Higiene</td>
+                <td>12/12/2022</td>
+                <td>Petalo</td>
+                <td>60pz</td>
+                <td>$8.00</td>
+            </tr>
+            <tr>
+                <td>#43</td>
+                <td>Choco krispis</td>
+                <td>32492378932879</td>
+                <td>Alimento</td>
+                <td>1/12/2019</td>
+                <td>Kellogg's</td>
+                <td>30pz</td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+
          </div>
          <div>
         </div>
@@ -26,4 +115,3 @@
       </form>
     </div>
   </body>
-</html>
