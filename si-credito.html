@@ -15,10 +15,17 @@
     <div class="container" >
         <form>
         <section>
-                <h2>Clientes Con Crédito</h2>
+                <h2>Registro de venta a clientes con crédito</h2>
                 <div class="panel">
                     <div class="row">
                             <a href="menu.html"><input class="atras" type="button" value="< Atras" id="btn1"/></a>
+                            <label for="filter">Filtrar por</label>
+                            <select name="filter" id="filter">
+                                <option value="fecha">Fecha</option>
+                                <option value="id">Id del Cliente</option> 
+                                <option value="articulo">Nombre del Cliente</option>
+                            </select>
+                            <br>
                             <table class="Tabla">
                                     <tr>
                                             <th>Id del Cliente</th>
@@ -26,13 +33,15 @@
                                             <th>Crédito actual</th>
                                             <th>Precio Total</th>
                                             <th>Crédito restante</th>
+                                            <th>Fecha de venta</th>
                                     </tr>
                                     <tr>
                                         <td>#123</td>
                                         <td>Luis Edoardo Morales Leyva</td>
                                         <td>$2,400.00</td>
-                                        <td><a href="articulos-list.html">$50.00</a></td>
+                                        <td><a href="articulos-list-sc.html">$50.00</a></td>
                                         <td>$2,350.00</td>
+                                        <td>11/11/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#234</td>
@@ -40,6 +49,7 @@
                                         <td>$1200.00</td>
                                         <td>$267.00</td>
                                         <td>$933.00</td>
+                                        <td>09/11/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#97</td>
@@ -47,6 +57,7 @@
                                         <td>$440.00</td>
                                         <td>$38.00</td>
                                         <td>$402.00</td>
+                                        <td>04/11/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#777</td>
@@ -54,6 +65,7 @@
                                         <td>$3,000.00</td>
                                         <td>$2,800.00</td>
                                         <td>$200.00</td>
+                                        <td>31/10/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#23</td>
@@ -61,6 +73,7 @@
                                         <td>$1,435.00</td>
                                         <td>$21.00</td>
                                         <td>$1,414.00</td>
+                                        <td>28/10/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#43</td>
@@ -68,6 +81,7 @@
                                         <td>$2,400.00</td>
                                         <td>$328.00</td>
                                         <td>$2,072.00</td>
+                                        <td>20/10/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#29</td>
@@ -75,6 +89,7 @@
                                         <td>$750.00</td>
                                         <td>$45.00</td>
                                         <td>$705.00</td>
+                                        <td>19/10/2019</td>
                                     </tr>
                                     <tr>
                                         <td>#93</td>
@@ -82,8 +97,10 @@
                                         <td>$1,680.00</td>
                                         <td>$380.00</td>
                                         <td>$1,300.00</td>
+                                        <td>15/10/2019</td>
                                     </tr>
                                 </table>
+                                <a href="formulario-no-credito.html"><input class="atras" type="button" value="Añadir" id="btn2"/></a>
                     </div>
                 </div>
         </section>
