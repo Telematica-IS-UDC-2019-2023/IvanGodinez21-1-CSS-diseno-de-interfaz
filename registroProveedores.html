@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Diseño de Interfaz</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link
       href="https://fonts.googleapis.com/css?family=VT323&display=swap"
       rel="stylesheet"
@@ -15,9 +15,20 @@
       <form>
         <section>
         <h2>Registro de proveedores</h2>
-         <div class="panel">
-         <a class="row">
-         <a href="menu.html"><input class="atras" type="button" value="< ATRAS" id="btn1"/></a>
+        </ul>
+         <div id="menuhor">
+          <ul id="boton">
+          <li><a href="menu.html">Regresar</a></li>
+          <li><a href="registroProveedores-nuevo.html">Añadir</a></li>
+          <li><a href="#">Borrar</a></li>
+          <li><a href="#">Editar</a></li>
+          </ul>
+          </div> <!-- Cierre de "menuhor" -->
+         <div id="buscar">
+          <label for="buscar">Coloca el nombre de algun proveedor para buscarlo:</label>	  
+  	        <input type="text"  id="empresa"/>
+    </div>	
+                <table>	<br> 
          <table class="Tabla">
             <tr> 
              <th>ID</th>
@@ -189,10 +200,7 @@
                         </tr>
                         <tr>
         </table>
-        <h1>Acción</h1>
-        <a href="registroProveedores-nuevo.html"><input class="Atras" type="button" value="Añadir"></a>
-        <input class="Atras" type="button" value="Borrar">
-        <input class="Atras" type="button" value="Editar">
+
         </table>
          </div>
          <div>
