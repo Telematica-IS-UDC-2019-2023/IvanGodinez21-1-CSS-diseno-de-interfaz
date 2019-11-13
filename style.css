@@ -153,3 +153,13 @@ input[type=date] {
   padding: 1px;
   width: 120px;
 }
+
+select {
+  border-radius: 10px;
+  font-size: 30px;
+  align-content: center;
+  text-align: left;
+  padding: 1px;
+  width: 400px;
+  background: rgb(210, 210, 210);
+}
